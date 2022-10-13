@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/55e46ab996.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>One Piece</title>
+
+    <script>
+        $(document).ready(function () {
+            $(".mini_pic").hover(function () {
+                $('#grayout').css("display", "inline");
+            }, function () {
+                $('#grayout').css("display", "none");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>KOCKERIET / HTML CSS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Hem</a></li>
+                <li><a href="profil.html">PROFIL</a></li>
+                <li class="li-container"><i class="fa-regular fa-heart"></i><a href="kockeriet.html"
+                        class="active">KOCKERIET</a></li>
+                <li><a href="dragonball.html">DRAGONBALL</a></li>
+                <li><a href="one-piece.html">ONE PIECE</a></li>
+                <li><a href="../contact/kontakt.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+        <div class="outer-container">
+            <div class="container">
+                <div class="project_description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum tenetur laudantium iure
+                        aliquam
+                        excepturi cumque delectus ratione enim deleniti, aperiam itaque quos facilis molestias quia
+                        rerum
+                        perferendis suscipit harum. Magnam temporibus dolorem sit atque, nobis perferendis quia
+                        asperiores? Hic
+                        similique quia dignissimos inventore excepturi praesentium autem ipsa corrupti incidunt?</p>
+                </div>
+                <div class="column_pics">
+                    <div class="mini_pic hover02"><img src="../../img/kockeriet/kock_mini_1.png" alt=""><span
+                            class="mini_pic_title">Kortfattad text<p>om just det här.</p></span></div>
+                    <div class="mini_pic hover02"><img src="../../img/kockeriet/kock_mini_2.png" alt=""><span
+                            class="mini_pic_title">Kortfattad text<p>om just det här.</p></span></div>
+                    <div class="mini_pic hover02"><img src="../../img/kockeriet/kock_mini_3.png" alt=""><span
+                            class="mini_pic_title">Kortfattad text<p>om just det här.</p></span></div>
+                </div>
+                <div class="main_pic"><video src="../../video/kock_main_web.mp4" autoplay muted loop id="kock_video" alt=""></div>
+            </div>
+        </div>
+        <div id="grayout"></div>
+        <footer>
+            <a href="#"><i class="fi fi-brands-linkedin"></i></a>
+            <a href="#"><i class="fi fi-brands-instagram"></i></a>
+            <a href="#"><i class="fi fi-brands-whatsapp"></i></a>
+        </footer>
+    </div>
+</body>
+
+</html>
